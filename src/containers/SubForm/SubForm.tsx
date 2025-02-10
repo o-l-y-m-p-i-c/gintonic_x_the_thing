@@ -50,7 +50,7 @@ export const SubForm = () => {
     setEmailValue(value);
   };
 
-  const iconStyles = {
+  const iconStyles: React.CSSProperties = {
     width: 40,
     height: 24,
     objectFit: "contain",
